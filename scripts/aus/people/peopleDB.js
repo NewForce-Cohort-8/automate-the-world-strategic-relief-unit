@@ -9,22 +9,22 @@ const database = {
         {
             personName:"MEN AT WORK",
             blurb:"From the land down under. Enjoy Vegimite sandwhiches.",
-            image:""
+            image:"https://upload.wikimedia.org/wikipedia/commons/a/a1/Men_At_Work_1983.jpg"
         },            
         {
             personName:"MEL GIBSON",
             blurb:"actor",
-            image:""
+            image:"https://static.simpsonswiki.com/images/thumb/7/73/Mel_Gibson.png/250px-Mel_Gibson.png"
         },
         {
             personName:"MARGO ROBBIE",
             blurb:"a barbie girl",
-            image:""
+            image:"https://akns-images.eonline.com/eol_images/Entire_Site/20071207/293.kidman.cruise3.120707.jpg?fit=around%7C776:auto&output-quality=90&crop=776:auto;center,top"
         },
         {
             personName:"HEATH LEDGER",
             blurb:"Why so serious?",
-            image:""
+            image:"https://static.wikia.nocookie.net/batman/images/3/3e/Jack_Nicholson_As_The_Joker.jpg/revision/latest?cb=20180101142215"
         },
         {
             personName:"LORD HUMUNGUS",
@@ -34,12 +34,12 @@ const database = {
         {
             personName:"CROCODILE DUNDEE",
             blurb:"You call that a knife?",
-            image:""
+            image:"https://i.guim.co.uk/img/media/8c5d882b8501dda8499819d8cc98f6e13fb6c433/0_0_3264_2119/master/3264.jpg?width=465&dpr=1&s=none"
         },
         {
             personName:"THE NOBLE PLATYPUS",
             blurb:"a naturally occuring abominatiion",
-            image:""
+            image:"https://upload.wikimedia.org/wikipedia/en/d/dc/Perry_the_Platypus.png"
         },
     ]
 }
