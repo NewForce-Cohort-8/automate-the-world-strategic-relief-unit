@@ -21,4 +21,11 @@ const database = {
             image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzhjmzWk_kLlAvUNhI7GXWSIS3Qg3iOdV4T5L40abc67MZa4iwxn-i5r36fWGJaovCJ28&usqp=CAU"
         },
     ]
+   
+    let myCity= ""
+    
+    for(i=0; i < database.cities.length; i++){
+        myCity=(myCity[i]);
+    }
+    
 }
