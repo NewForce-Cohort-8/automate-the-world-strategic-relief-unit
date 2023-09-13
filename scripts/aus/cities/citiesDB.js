@@ -20,12 +20,12 @@ const database = {
         ]
 }
 
-/*let myCity= ""
-
+let myCity= ""
+    
 for(i=0; i < database.cities.length; i++){
     myCity=(myCity[i]);
-} */
-
-export const getFish = () => {
-    return database.fish.map(copyOfSingleFishObject => ({...copyOfSingleFishObject}))
 }
+
+export const getCity = () => {
+    return database.cities.map(copyOfSingleCityObject => ({...copyOfSingleCityObject}))
+}   
