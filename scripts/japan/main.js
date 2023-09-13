@@ -1,4 +1,4 @@
-import { getPeople } from './peopleDB.js'
+import { getPeople } from './people/peopleDB.js'
 
 const allPeople = getPeople()
 
