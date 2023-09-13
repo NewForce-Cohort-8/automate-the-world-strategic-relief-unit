@@ -21,4 +21,15 @@ const database = {
             landmarkImage: "https://ipt.imgix.net/197344/x/0/"
         }
     ]
-}
+    }
+
+    for (let i = 0; i < database.landmarks.length; i++) {
+        const landmarks = database.landmarks[i];
+        console.log(`Landmark Name: ${landmarks.landmarkName}`);
+        console.log(`Landmark Info: ${landmarks.landmarkInfo}`);
+        console.log(`Landmark Image URL: ${landmarks.landmarkImage}`);
+    }
+    export const landmarks = () => {
+        return database.landmarks.map
+        (copyOfSingleLandmarksObject => ({...copyOfSingleLandmarksObject}))
+    }
