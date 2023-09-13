@@ -26,4 +26,14 @@ const database = {
             cityImage: "https://www.expedia.com/Things-To-Do-In-Stykkisholmur.d9971.Travel-Guide-Activities?gallery-dialog=gallery-open"
         }
     ]
+    }
+for (let i = 0; i < database.cities.length; i++) {
+    const city = database.cities[i];
+    console.log(`City Name: ${city.cityName}`);
+    console.log(`City Info: ${city.cityInfo}`);
+    console.log(`City Image URL: ${city.cityImage}`);
+}
+export const cities = () => {
+    return database.cities.map
+    (copyOfSingleCitiesObject => ({...copyOfSingleCitiesObject}))
 }
