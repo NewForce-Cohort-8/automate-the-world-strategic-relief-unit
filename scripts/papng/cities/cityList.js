@@ -1,5 +1,5 @@
 // Import the function that returns a copy of the city array
-import { getCity } from './cities/citiesDB.js'
+import { getCity } from './citiesDB.js'
 
 export const CityList = () => {
     // Invoke the function that you imported from the database module
@@ -14,9 +14,8 @@ export const CityList = () => {
 
         // Why is there a backtick used for this string?
         htmlString += `<section class="cities">
-            <div><img  class="city__image image--card" src="${singleCity.image}" /></div>
-            <div class="city__name">${singleCity.name}</div>
-            <div class="city__species">${singleCity.rank}</div>
+            <div><img  class="city__image image--card" src="${singleCity.cityImage}" /></div>
+            <div class="city__name">${singleCity.cityName}</div>            
             <div class="city__length">${singleCity.population}</div> 
         </section>
     `
