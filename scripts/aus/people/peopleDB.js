@@ -43,3 +43,13 @@ const database = {
         },
     ]
 }
+
+/* let myPeople= ""
+
+for(i=0; i < database.people.length; i++){
+    myPeople=(myPeople[i]);
+} */
+
+export const getPeople = () => {
+    return database.people.map(copyOfSinglePersonObject => ({...copyOfSinglePersonObject}))
+}

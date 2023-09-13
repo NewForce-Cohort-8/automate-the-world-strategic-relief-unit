@@ -27,3 +27,13 @@ const database = {
         },
     ]
 }
+
+/* let myLandmarks= ""
+
+for(i=0; i < database.landmarks.length; i++){
+    myLandmarks=(myLandmarks[i]);
+} */
+
+export const getFish = () => {
+    return database.fish.map(copyOfSingleFishObject => ({...copyOfSingleFishObject}))
+}
