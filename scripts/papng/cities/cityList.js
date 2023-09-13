@@ -1,5 +1,5 @@
 // Import the function that returns a copy of the city array
-import { getCity } from './citiesDB.js'
+import { getCity } from './cities/citiesDB.js'
 
 export const CityList = () => {
     // Invoke the function that you imported from the database module
@@ -17,7 +17,9 @@ export const CityList = () => {
             <div><img  class="city__image image--card" src="${singleCity.image}" /></div>
             <div class="city__name">${singleCity.name}</div>
             <div class="city__species">${singleCity.rank}</div>
-            <div class="city__length">${singleCity.population}</div> `
+            <div class="city__length">${singleCity.population}</div> 
+        </section>
+    `
     }
     htmlString += `</article>`
 

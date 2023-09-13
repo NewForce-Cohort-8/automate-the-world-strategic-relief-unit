@@ -6,7 +6,7 @@ for (const singleCity of allCities) {
     console.log(singleCity)
 }
 
-import {CityList} from `./CityList.js`
+import { CityList } from './cities/cityList.js'
 
 const parentHTMLElement = document.querySelector(".city")
 
