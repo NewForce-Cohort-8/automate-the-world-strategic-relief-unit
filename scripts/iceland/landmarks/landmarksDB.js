@@ -22,14 +22,7 @@ const database = {
         }
     ]
     }
-
-    for (let i = 0; i < database.landmarks.length; i++) {
-        const landmarks = database.landmarks[i];
-        console.log(`Landmark Name: ${landmarks.landmarkName}`);
-        console.log(`Landmark Info: ${landmarks.landmarkInfo}`);
-        console.log(`Landmark Image URL: ${landmarks.landmarkImage}`);
-    }
-    export const landmarks = () => {
+    export const getLandmarks = () => {
         return database.landmarks.map
         (copyOfSingleLandmarksObject => ({...copyOfSingleLandmarksObject}))
     }

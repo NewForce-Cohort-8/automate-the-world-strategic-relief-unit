@@ -22,14 +22,6 @@ const database = {
         }
     ]
 }
-
-for (let i = 0; i < database.people.length; i++) {
-    const people = database.people[i];
-    console.log(`Person Name: ${peopleName}`);
-    console.log(`Person Info: ${people.peopleInfo}`);
-    console.log(`Person Image URL: ${people.peopleImage}`);
-}
-export const people = () => {
-    return database.people.map
-    (copyOfSinglePeopleObject => ({...copyOfSinglePeopleObject}))
+export const getPeople = () => {
+    return database.people.map(copyOfSinglePeopleObject => ({...copyOfSinglePeopleObject}))
 }
