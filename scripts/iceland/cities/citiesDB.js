@@ -27,13 +27,7 @@ const database = {
         }
     ]
     }
-for (let i = 0; i < database.cities.length; i++) {
-    const city = database.cities[i];
-    console.log(`City Name: ${city.cityName}`);
-    console.log(`City Info: ${city.cityInfo}`);
-    console.log(`City Image URL: ${city.cityImage}`);
-}
-export const cities = () => {
-    return database.cities.map
-    (copyOfSingleCitiesObject => ({...copyOfSingleCitiesObject}))
+
+export const getCity = () => {
+    return database.cities.map(copyOfSingleCitiesObject => ({...copyOfSingleCitiesObject}))
 }
