@@ -1,8 +1,8 @@
-import {getLandmark} from '../landmarks/landmarksDB.js'
+import {getLandmarks} from './landmarksDB.js'
 
 export const LandmarkList = () => {
     // Invoke the function that you imported from the database module
-    const landmarks = getLandmark()
+    const landmarks = getLandmarks()
 
     // Start building a string filled with HTML syntax
     let htmlString = '<article class="landmarkList">'

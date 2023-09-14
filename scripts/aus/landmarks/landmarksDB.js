@@ -29,6 +29,6 @@ const database = {
 }
 
 
-export const getLandmark = () => {
+export const getLandmarks = () => {
     return database.landmarks.map(copyOfSingleLandmarkObject => ({...copyOfSingleLandmarkObject}))
 }

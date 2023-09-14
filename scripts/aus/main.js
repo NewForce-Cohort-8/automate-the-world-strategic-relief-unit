@@ -52,8 +52,8 @@ parentHTMLElement2.innerHTML = CityList()
 
 
 // // //\/\\/\/\/\/\\///\/\//\\//\/\/\/\/\/\/\
-/*
- import { getLandmarks } from './landmarks/landmarksDB.js'
+
+import { getLandmarks } from './landmarks/landmarksDB.js'
 
 const allLandmarks = getLandmarks()
 
@@ -72,8 +72,8 @@ import { LandmarkList } from './landmarks/landmarkList.js'
 //     Use . for elements with a "class" attribute
 //     Use # for elements with an "id" attribute
 //  */ 
-/*
- const parentHTMLElement3 = document.querySelector(".landmarks")
+
+const parentHTMLElement3 = document.querySelector(".landmarks")
 
 
-parentHTMLElement3.innerHTML = LandmarkList() */
+parentHTMLElement3.innerHTML = LandmarkList() 
