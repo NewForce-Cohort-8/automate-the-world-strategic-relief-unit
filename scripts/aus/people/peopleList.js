@@ -1,4 +1,4 @@
-import {getPeople} from './people/peopleDB.js'
+import {getPeople} from '../people/peopleDB.js'
 
 export const PeopleList = () => {
     // Invoke the function that you imported from the database module
@@ -14,7 +14,7 @@ export const PeopleList = () => {
         htmlString += `<section class="people">
             <div><img  class="people__image--card" src="${singlePeople.peopleImage}" /></div>
             <div class="people__name"> This is: ${singlePeople.peopleName} </div>
-            <div class="people__info"> About Him: ${singlePeople.peopleInfo} </div>
+            <div class="people__info"> About : ${singlePeople.peopleInfo} </div>
    
         </section>
 `
