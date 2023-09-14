@@ -8,9 +8,11 @@ for (const singleCity of allCities) {
 
 import { CityList } from './cities/cityList.js'
 
-const parentHTMLElement = document.querySelector(".cities")
+const parentHTMLElement1 = document.querySelector(".cities")
 
-parentHTMLElement.innerHTML = CityList()
+parentHTMLElement1.innerHTML = CityList()
+
+
 
 
 
@@ -22,14 +24,12 @@ for (const singlePeople of allPeople) {
     console.log(singlePeople)
 }
 
-
 import { PeopleList } from './people/PeopleList.js'
 
 
- 
-const parentHTMLElement = document.querySelector(".people")
+const parentHTMLElement2 = document.querySelector(".people")
 
-parentHTMLElement.innerHTML = PeopleList()
+parentHTMLElement2.innerHTML = PeopleList()
 
 
 
@@ -42,8 +42,6 @@ const allLandmarks = getLandmarks()
 for (const singleLandmark of allLandmarks) {
     console.log(singleLandmark)
 }
-
-
 
 import { LandmarkList } from './landmarks/LandmarkList.js'
 
