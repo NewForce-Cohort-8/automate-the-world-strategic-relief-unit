@@ -25,7 +25,7 @@ const database = {
         {
             peopleName:"HEATH LEDGER",
             peopleInfo:"Why so serious?",
-            peopleImage:"https://static.wikia.nocookie.net/batman/images/3/3e/Jack_Nicholson_As_The_Joker.jpg/revision/latest?cb=20180101142215"
+            peopleImage:"https://i.insider.com/5614a062bd86ef1d5d8b4c22?width=1000&format=jpeg&auto=webp"
         },
         {
             peopleName:"LORD HUMUNGUS",
