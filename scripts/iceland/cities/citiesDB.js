@@ -23,7 +23,7 @@ const database = {
         {
             cityName: "Stykkisholmur",
             cityInfo: "Perched on Iceland's northwestern coast, Stykkisholmur welcomes travelers to a captivating and rejuvenating experience. This coastal town is renowned for its idyllic charm and its role as a gateway to the Snæfellsnes Peninsula's wonders. Visitors can savor the fresh sea breeze and panoramic views from the town's iconic lighthouse, overlooking the pristine Breiðafjörður Bay. Stykkisholmur also boasts colorful, well-preserved 19th-century houses that add to its distinctive character. Exploring this tranquil town, you'll sense a deep connection between its maritime heritage and the untamed natural beauty of the surrounding seas and mountains. Stykkisholmur is a peaceful haven and an opportunity to immerse yourself in Iceland's coastal embrace.",
-            cityImage: "https://www.expedia.com/Things-To-Do-In-Stykkisholmur.d9971.Travel-Guide-Activities?gallery-dialog=gallery-open"
+            cityImage: "https://www.funiceland.is/media/1421/stykkisholmur-town.jpg"
         }
     ]
     }
