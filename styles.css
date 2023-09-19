@@ -1,0 +1,74 @@
+div{
+    background-color: blue;
+}
+nav{
+    display:flex;
+    padding: 2rem;
+    justify-content: center;
+    background-color: goldenrod;
+
+    
+}
+ul 
+{
+    display: flex;
+    list-style-type: none;
+       
+}
+li{
+    gap: 10px;
+}
+
+a{
+    display: flex;
+    color:chartreuse;
+    background-color: black;
+ 
+    font-size: xx-large;
+}
+a:link{
+    color:chartreuse;
+}
+
+.article-container{
+    display: flex;
+    justify-content: space-between
+    width:center;
+    height: fit-content;
+    }
+    /* individual article styles*/
+    .article {
+        flex: 1; /*width for all*/
+        padding: 20px;
+        margin: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+        background-color: #9c25e0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:fit-content;
+        height: fit-content;
+    }
+    /* styles class names*/
+    .landmark {
+        color: rgb(241, 8, 8);
+        width:fit-content;
+        height: fit-content;
+    }
+    .city {
+        color: rgb(236, 13, 125);
+        flex-flow:row-reverse;
+        font-size:xx-large;
+        flex-direction: row;
+        width:fit-content;
+        height: fit-content;
+
+    }
+    .people {
+        color: rgb(16, 207, 16);
+        font-size:large;
+        width:fit-content;
+        height: fit-content;
+    }
